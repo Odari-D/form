@@ -1,0 +1,42 @@
+/*The container*/
+.container {
+  background-color: lightgrey;
+  border: 5px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 40rem;
+  margin: 3rem auto;
+  text-align: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 80px;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+div {
+  margin: 5px;
+  padding: 5px;
+}
+label {
+  font-size: 20px;
+  font: weight 10px;
+}
+/*The buttons*/
+input[type="submit"] {
+  border-radius: 3px;
+  width: 7rem;
+  height: 4rem;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: rgb(15, 24, 15);
+  color: #999;
+  border: honeydew;
+  border: 2px solid honeydew;
+}
+p {
+  text-decoration: underline;
+}
