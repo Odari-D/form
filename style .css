@@ -1,13 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&family=Poppins:ital,wght@0,100;1,100&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
 /*The container*/
 .container {
-  background-color: lightgrey;
-  border: 5px solid black;
-  padding: 1rem;
-  border-radius: 5px;
-  max-width: 40rem;
-  margin: 3rem auto;
+  background-color: #fff;
   text-align: center;
   justify-content: center;
+}
+.header {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.nav {
+  background-color: rgb(15, 24, 15);
+  color: white;
+  border-radius: 5px;
+  margin-left: 1rem;
 }
 h1 {
   font-size: 80px;
@@ -15,6 +27,10 @@ h1 {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  font-family: "Cinzel", serif;
 }
 div {
   margin: 5px;
